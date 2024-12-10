@@ -1,14 +1,520 @@
 body{
 width: 100%;
-background-image: url("../image/noise_bg.svg");
-background-color: 0202E0;
-height: 200px;
+background-image: url("../image/noise.png");
+background-color: #0202E0;
+}
+
+@font-face {
+font-family: "DIN Condensed";
+src: url("../font/DIN\ Condensed\ Bold.ttf") format("truetype");
+font-style: normal;
+font-weight: bold;
+}
+
+h1{
+font-family: "DIN Condensed";
+font-size: 10vw;
 }
 
 .section_first{
-
+width: 100%;
+height: 51vw;
+top: 1vw;
+position: relative;
+overflow-x: hidden;
 }
 
-.blue_allo{
+.blue_allo {
+width: 100vw;
+height: 40vw;
+/* background: url(../image/ALLO_orange.svg); */
+animation: allo 3s ease-in infinite;
+position: absolute;
+animation-play-state: running;
+}
 
+.blue_allo:hover {
+animation-play-state: paused;
+}
+
+.allo {
+width: 100%;
+}
+
+@keyframes allo {
+0% {left: 100%;}
+100%{left: -20%;}
+}
+
+.black_horizontal_rec{
+width: 100vw;
+height: 10vw;
+position: absolute;
+top: 30vw;
+background-image: url(../image/black\ glitch\ rectangle.svg);
+background-repeat: no-repeat;
+background-size: 100%;
+animation: alarm 6s ease-in infinite;
+}
+
+@keyframes alarm {
+0% {color: black;}
+50% {color: #ffffff;}
+100% {color: black;}
+}
+
+.black_horizontal_rec h1{
+text-align: center;
+margin-top: 2.25%;
+font-size: 3vw;
+white-space: nowrap;
+color: #0202E0;
+animation: center 2s ease-in-out infinite;
+}
+
+@keyframes center {
+0% {color: #0202E0;}
+50% {color: #FC6749;}
+100% {color: #0202E0;}
+}
+
+.horace {
+background-image: url(../image/Horace_black_rectangle.svg);
+position: absolute;
+width: 38vw;
+height: 38vw;
+top: 37vw;
+left: -2vw;
+}
+.horace img{
+position: absolute;
+width: 44vw;
+height: 40vw;
+top: -2vw;
+left: -2vw;
+animation: horace 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.horace img:hover {
+animation-play-state: running;
+}
+
+@keyframes horace {
+0% {transform: scale(1);}
+50% {transform: scale(1.2);}
+100% {transform: scale(1);}
+}
+
+.orange_rectangles {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 64vw;
+position: absolute;
+height: 15vw;
+top: 37vw;
+margin-left: 36vw;
+}
+
+/* квадратики по шир 4 vw,по высоте 5. 3 ряда по 16 */
+
+.orange1 {
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+/* border:0.1vw solid  #0202E0; */
+}
+
+.orange2 {
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange3 {
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange4 {
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange5 {
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange6 {
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange7 {
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange8 {
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange9 {
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange10 {
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange11 {
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange12 {
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange13 {
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange14 {
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange15 {
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange16 {
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange17 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange18 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+.orange19 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange20 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange21 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange22 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange23 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange24 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange25 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange26 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange27 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange28 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange29 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange30 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange31 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange32 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange33 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange34 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange35 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange36 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange37 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange38 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange39 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange40 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange41 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange42 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange43 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange44 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange45 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.orange46 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+  
+.orange47 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+  
+.orange48 {
+flex-wrap: wrap;
+width: 4vw;
+height: 5vw;
+background-color: #FC6749;
+box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.first_text{
+position: absolute;
+width: 64vw;
+height: 23vw;
+background-color: white;
+margin-left: 36vw;
+top: 52vw;
+overflow-y: hidden;
+}
+
+.first_text p {
+font-family: "DIN Condensed";
+font-style: normal;
+font-weight: bold;
+font-size: 1.7vw;
+letter-spacing: 0.05vw;
+color: black;
+margin: 1vw;
+animation: letters 2s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.first_text p:hover{
+animation-play-state: running;
+}
+
+@keyframes letters {
+0% {letter-spacing: 0.05vw;}
+50%{letter-spacing: 2vw;}
+100% {letter-spacing: 0.05vw;}
 }
