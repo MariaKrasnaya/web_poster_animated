@@ -489,7 +489,7 @@ box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
 
 .first_text{
 position: absolute;
-width: 64vw;
+width: 65vw;
 height: 23vw;
 background-color: white;
 margin-left: 36vw;
@@ -517,4 +517,64 @@ animation-play-state: running;
 0% {letter-spacing: 0.05vw;}
 50%{letter-spacing: 2vw;}
 100% {letter-spacing: 0.05vw;}
+}
+
+.white_rec_a {
+background-color: white;
+position: absolute;
+width: 18.35vw;
+height: 30vw;
+top: 75vw;
+box-shadow: inset 0.25vw 0.25vw 0.5vw #797979;;
+}
+
+.black_rec_4 {
+background-color: black;
+position: absolute;
+width: 18.35vw;
+height: 30vw;
+top: 75vw;
+margin-left: 17.6vw;
+}
+
+.blue_rec_wire {
+display: flex;
+background-color: #0202E0;
+position: absolute;
+width: 12vw;
+height: 30vw;
+top: 75vw;
+margin-left: 35.95vw;
+box-shadow: inset 0.25vw 0.25vw 0.5vw #030356;
+overflow-x: hidden;
+}
+
+.blue_rec_wire img {
+width: 16vw;
+/* margin-left: -5vw; */
+animation: wire 2s ease-in infinite;
+right: 90vw;
+}
+
+@keyframes wire {
+0% {transform: scaleX(0);}
+50% {transform: scaleX(1);}
+100% {transform: scaleX(0);}
+}
+
+.black_rec_statue {
+background-color: black;
+position: absolute;
+width: 35vw;
+height: 35vw;
+top: 75vw;
+margin-left: 66vw;
+}
+
+.statue img {
+position: absolute;
+width: 48vw;
+height: 40vw;
+top: 70vw;
+margin-left: 58vw;
 }
