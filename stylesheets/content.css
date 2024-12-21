@@ -117,8 +117,6 @@ top: 37vw;
 margin-left: 36vw;
 }
 
-/* квадратики по шир 4 vw,по высоте 5. 3 ряда по 16 */
-
 .orange1 {
 width: 4vw;
 height: 5vw;
@@ -126,12 +124,10 @@ background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
 animation: hover_blue 1s ease-in-out infinite;
 animation-play-state: paused;
-transition: all 3s;
 }
 
 .orange1:hover{
 animation-play-state: running;
-transition: all 3s;
 }
 
 @keyframes hover_blue {
@@ -157,6 +153,12 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange3:hover{
+animation-play-state: running;
 }
 
 .orange4 {
@@ -164,6 +166,12 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange4:hover{
+animation-play-state: running;
 }
 
 .orange5 {
@@ -171,6 +179,12 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange5:hover{
+animation-play-state: running;
 }
 
 .orange6 {
@@ -178,6 +192,12 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange6:hover{
+animation-play-state: running;
 }
 
 .orange7 {
@@ -185,6 +205,12 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange7:hover{
+animation-play-state: running;
 }
 
 .orange8 {
@@ -192,6 +218,12 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange9:hover{
+animation-play-state: running;
 }
 
 .orange9 {
@@ -199,6 +231,12 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange9:hover{
+animation-play-state: running;
 }
 
 .orange10 {
@@ -206,6 +244,12 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange10:hover{
+animation-play-state: running;
 }
 
 .orange11 {
@@ -213,6 +257,12 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange11:hover{
+animation-play-state: running;
 }
 
 .orange12 {
@@ -220,6 +270,12 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange12:hover{
+animation-play-state: running;
 }
 
 .orange13 {
@@ -227,6 +283,12 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange13:hover{
+animation-play-state: running;
 }
 
 .orange14 {
@@ -234,6 +296,12 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange14:hover{
+animation-play-state: running;
 }
 
 .orange15 {
@@ -241,6 +309,12 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange15:hover{
+animation-play-state: running;
 }
 
 .orange16 {
@@ -248,6 +322,12 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange16:hover{
+animation-play-state: running;
 }
 
 .orange17 {
@@ -256,6 +336,12 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange17:hover{
+animation-play-state: running;
 }
 
 .orange18 {
@@ -264,13 +350,26 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
+
+.orange18:hover{
+animation-play-state: running;
+}
+
 .orange19 {
 flex-wrap: wrap;
 width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange19:hover{
+animation-play-state: running;
 }
 
 .orange20 {
@@ -279,6 +378,12 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange20:hover{
+animation-play-state: running;
 }
 
 .orange21 {
@@ -287,6 +392,12 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange21:hover{
+animation-play-state: running;
 }
 
 .orange22 {
@@ -295,6 +406,12 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange22:hover{
+animation-play-state: running;
 }
 
 .orange23 {
@@ -303,6 +420,12 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange23:hover{
+animation-play-state: running;
 }
 
 .orange24 {
@@ -311,6 +434,12 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange24:hover{
+animation-play-state: running;
 }
 
 .orange25 {
@@ -319,6 +448,12 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
+}
+
+.orange25:hover{
+animation-play-state: running;
 }
 
 .orange26 {
@@ -327,6 +462,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
 
 .orange27 {
@@ -335,6 +472,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
 
 .orange28 {
@@ -343,6 +482,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
 
 .orange29 {
@@ -351,6 +492,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
 
 .orange30 {
@@ -359,6 +502,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
 
 .orange31 {
@@ -367,6 +512,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
 
 .orange32 {
@@ -375,6 +522,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
 
 .orange33 {
@@ -383,6 +532,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
 
 .orange34 {
@@ -391,6 +542,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
 
 .orange35 {
@@ -399,6 +552,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
 
 .orange36 {
@@ -407,6 +562,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
 
 .orange37 {
@@ -415,6 +572,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
 
 .orange38 {
@@ -423,6 +582,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
 
 .orange39 {
@@ -431,6 +592,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
 
 .orange40 {
@@ -439,6 +602,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
 
 .orange41 {
@@ -447,6 +612,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
 
 .orange42 {
@@ -455,6 +622,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
 
 .orange43 {
@@ -463,6 +632,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
 
 .orange44 {
@@ -471,6 +642,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
 
 .orange45 {
@@ -479,6 +652,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
 
 .orange46 {
@@ -487,6 +662,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
   
 .orange47 {
@@ -495,6 +672,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
   
 .orange48 {
@@ -503,6 +682,8 @@ width: 4vw;
 height: 5vw;
 background-color: #FC6749;
 box-shadow: inset 0.1vw 0.1vw #0202E0, inset 0.25vw 0.25vw 0.5vw #732010;
+animation: hover_blue 1s ease-in-out infinite;
+animation-play-state: paused;
 }
 
 .first_text{
@@ -569,7 +750,7 @@ width: 18.35vw;
 height: 30vw;
 top: 75vw;
 margin-left: 17.6vw;
-background-position: 367vw 18.35vw;
+background-position: 348.65vw 18.35vw;
 background-image: url(../image/4_animation.svg);
 animation: four 3s steps(19) infinite;
 background-repeat: no-repeat;
@@ -577,7 +758,7 @@ background-repeat: no-repeat;
 
 @keyframes four {
 0% {background-position: 0vw top;}
-100% {background-position: -367vw top;}
+100% {background-position: -348.65vw top;}
 }
 
 .blue_rec_wire {
@@ -619,7 +800,77 @@ width: 48vw;
 height: 40vw;
 top: 70vw;
 margin-left: 58vw;
+z-index: 2;
 }
+
+.white_rec_1 {
+position: absolute;
+width: 29vw;
+height: 3vw;
+margin-top: 26vw;
+margin-left: 71vw;
+background-color: white;
+z-index: 1;
+}
+
+.white_rec_2 {
+position: absolute;
+width: 35vw;
+height: 2vw;
+margin-top: 30vw;
+margin-left: 65vw;
+background-color: white;
+z-index: 3;
+}
+
+.white_rec_3 {
+position: absolute;
+width: 27vw;
+height: 4vw;
+margin-top: 35vw;
+margin-left: 73vw;
+background-color: white;
+z-index: 3;
+animation: rec3 2s ease-in infinite;
+}
+
+@keyframes rec3 {
+0% {margin-left: 73vw; z-index: 3;}
+50% {margin-left: 35vw; z-index: 1;}
+100% {margin-left: 73vw;z-index: 1;}
+}
+
+.white_rec_4 {
+position: absolute;
+width: 39vw;
+height: 1vw;
+margin-top: 45vw;
+margin-left: 61vw;
+background-color: white;
+z-index: 1;
+}
+
+.white_rec_5 {
+position: absolute;
+width: 35vw;
+height: 2vw;
+margin-top: 48vw;
+margin-left: 65vw;
+background-color: white;
+z-index: 1;
+}
+
+.white_rec_6 {
+position: absolute;
+width: 39vw;
+height: 1vw;
+margin-top: 55vw;
+margin-left: 61vw;
+background-color: white;
+z-index: 3;
+}
+
+
 
 .blue_running_text {
 position: absolute;
@@ -644,10 +895,10 @@ animation: running_text 7s ease-in-out infinite;
 color: #FC6749;
 }
 
-@keyframes running_text {
+/* @keyframes running_text {
 0% {left: 100%;}
 100% {left: -120%;}
-}
+} */
 
 
 /* .section_four {
