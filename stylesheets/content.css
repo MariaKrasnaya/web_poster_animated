@@ -944,3 +944,24 @@ margin-top: 65vw;
 background-repeat: no-repeat;
 background-image: url(../image/orange_wires_moved.svg);
 }
+
+.durer_black_rec {
+position: absolute;
+background-color: black;
+width: 38vw;
+height: 35vw;
+margin-top: 89vw;
+}
+
+.durer img{
+position: absolute;
+margin-left: -6vw;
+width: 55vw;
+height: 42vw;
+margin-top: 82vw;
+}
+
+.white_bubble {
+position: absolute;
+
+}
