@@ -811,6 +811,13 @@ margin-top: 26vw;
 margin-left: 71vw;
 background-color: white;
 z-index: 1;
+animation: rec1 1s ease-in-out infinite;
+}
+
+@keyframes rec1 {
+0% {margin-left: 100vw; z-index: 3; opacity: 1;}
+50% {margin-left: 40vw; z-index: 1; opacity: 1;}
+100% {margin-left: 100vw;z-index: 1; opacity: 0;}
 }
 
 .white_rec_2 {
@@ -821,6 +828,13 @@ margin-top: 30vw;
 margin-left: 65vw;
 background-color: white;
 z-index: 3;
+animation: rec2 4s ease-in-out infinite;
+}
+
+@keyframes rec2 {
+0% {margin-left: 73vw; z-index: 1; opacity: 1;}
+50% {margin-left: 40vw; z-index: 3; opacity: 1;}
+100% {margin-left: 100vw;z-index: 1; opacity: 0;}
 }
 
 .white_rec_3 {
@@ -831,13 +845,13 @@ margin-top: 35vw;
 margin-left: 73vw;
 background-color: white;
 z-index: 3;
-animation: rec3 2s ease-in infinite;
+animation: rec3 2s ease-in-out infinite;
 }
 
 @keyframes rec3 {
-0% {margin-left: 73vw; z-index: 3;}
-50% {margin-left: 35vw; z-index: 1;}
-100% {margin-left: 73vw;z-index: 1;}
+0% {margin-left: 100vw; z-index: 3; opacity: 1;}
+50% {margin-left: 35vw; z-index: 1; opacity: 1;}
+100% {margin-left: 100vw;z-index: 1; opacity: 0;}
 }
 
 .white_rec_4 {
@@ -848,6 +862,13 @@ margin-top: 45vw;
 margin-left: 61vw;
 background-color: white;
 z-index: 1;
+animation: rec4 0.6s ease-in-out infinite;
+}
+
+@keyframes rec4 {
+0% {margin-left: 73vw; z-index: 1;}
+50% {margin-left: 59vw; z-index: 1;}
+100% {margin-left: 73vw;z-index: 1;}
 }
 
 .white_rec_5 {
@@ -858,6 +879,13 @@ margin-top: 48vw;
 margin-left: 65vw;
 background-color: white;
 z-index: 1;
+animation: rec5 4s ease-in-out infinite;
+}
+
+@keyframes rec5 {
+0% {margin-left: 100vw; z-index: 3; opacity: 1;}
+50% {margin-left: 27vw; z-index: 1; opacity: 1;}
+100% {margin-left: 100vw;z-index: 1; opacity: 0;}
 }
 
 .white_rec_6 {
@@ -868,6 +896,13 @@ margin-top: 55vw;
 margin-left: 61vw;
 background-color: white;
 z-index: 3;
+animation: rec6 2s ease-in-out infinite;
+}
+
+@keyframes rec6 {
+0% {margin-left: 100vw; z-index: 3; opacity: 1;}
+50% {margin-left: 27vw; z-index: 1; opacity: 1;}
+100% {margin-left: 100vw; z-index: 1; opacity: 0;}
 }
 
 
@@ -900,15 +935,12 @@ color: #FC6749;
 100% {left: -120%;}
 } */
 
-
-/* .section_four {
-width: 100%;
-height: ;
-}
 .orange_wires_move {
 position: absolute;
 background-color: #FC6749;
-width: 18.35vw;
-height: 12vw;
-margin-top: ;
-} */
+width: 38vw;
+height: 24vw;
+margin-top: 65vw;
+background-repeat: no-repeat;
+background-image: url(../image/orange_wires_moved.svg);
+}
