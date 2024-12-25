@@ -935,6 +935,13 @@ color: #FC6749;
 100% {left: -120%;}
 } */
 
+.wire_orange_sec4 img{
+position: absolute;
+width: 52vw;
+margin-top: 102vw;
+margin-left: 2vw;
+}
+
 .orange_wires_move {
 position: absolute;
 background-color: #FC6749;
@@ -991,4 +998,46 @@ animation: bubble 2s ease-in-out infinite;
 0% {transform: scaleY(0.5); color: #0202E0;}
 50% {transform: scaleY(1.8); color: #FC6749;}
 100% {transform: scaleY(0.5); color: #0202E0;}
+}
+
+.code_elements_orange {
+position: absolute;
+background-image: url(../image/code_elements_orange.svg);
+background-repeat: no-repeat;
+width: 48vw;
+height: 42vw;
+margin-top: 65vw;
+margin-left: 53vw;
+}
+
+.ears {
+position: absolute;
+margin-top: 119vw;
+width: 65vw;
+height: 10vw;
+background-color: #FC6749;
+box-shadow:inset 0.25vw 0.25vw 0.5vw #732010;
+}
+
+.telefon {
+position: absolute;
+margin-top: 107vw;
+margin-left: 63vw;
+}
+
+/* .telefon img{
+width: 34vw;
+height: 34vw;
+} */
+
+.telefon_round img{
+width: 34vw;
+height: 34vw;
+}
+
+.numbers img{
+position: absolute;
+width: 34vw;
+height: 34vw;
+margin-left: 63vw;
 }
