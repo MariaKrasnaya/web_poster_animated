@@ -938,7 +938,7 @@ color: #FC6749;
 .wire_orange_sec4 img{
 position: absolute;
 width: 52vw;
-margin-top: 102vw;
+margin-top: 99vw;
 margin-left: 2vw;
 }
 
@@ -1005,7 +1005,7 @@ position: absolute;
 background-image: url(../image/code_elements_orange.svg);
 background-repeat: no-repeat;
 width: 48vw;
-height: 42vw;
+height: 39vw;
 margin-top: 65vw;
 margin-left: 53vw;
 }
@@ -1025,19 +1025,45 @@ margin-top: 107vw;
 margin-left: 63vw;
 }
 
-/* .telefon img{
+.round_telefon {
 width: 34vw;
 height: 34vw;
-} */
-
-.telefon_round img{
-width: 34vw;
-height: 34vw;
+animation: number 19s ease-in-out infinite;
 }
 
-.numbers img{
+
+@keyframes number {
+0% {transform: rotate(0deg);}
+4% {transform: rotate(47deg);}
+8% {transform: rotate(0deg);}
+12% {transform: rotate(95deg);}
+16% {transform: rotate(0deg);}
+20% {transform: rotate(71deg);}
+24% {transform: rotate(0deg);}
+28% {transform: rotate(119deg);}
+32% {transform: rotate(0deg);}
+36% {transform: rotate(47deg);}
+40% {transform: rotate(0deg);}
+44% {transform: rotate(167deg);}
+48% {transform: rotate(0deg);}
+52% {transform: rotate(95deg);}
+56% {transform: rotate(0deg);}
+60% {transform: rotate(191deg);}
+64% {transform: rotate(0deg);}
+68% {transform: rotate(119deg);}
+72% {transform: rotate(0deg);}
+76% {transform: rotate(71deg);}
+80% {transform: rotate(0deg);}
+84% {transform: rotate(47deg);}
+88% {transform: rotate(0deg);}
+92% {transform: rotate(95deg);}
+100% {transform: rotate(0deg);}
+}
+
+.telefon_element img{
 position: absolute;
-width: 34vw;
-height: 34vw;
-margin-left: 63vw;
+width: 3vw;
+height: 2vw;
+margin-top: -12vw;
+margin-left: 10vw;
 }
