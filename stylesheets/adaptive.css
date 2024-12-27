@@ -15,11 +15,39 @@
 
 /* Планшеты (от 415px до 768px) */
 @media screen and (min-width: 415px) and (max-width: 768px) {
-  /* Стили для планшетов */
+.section_first{
+height: 52vw;
+}
+
+.blue_allo {
+height: 50vw;
+z-index: 3;
+}
+
+.allo{
+width: 150%;
+}
+
+.black_horizontal_rec{
+height: 20vw;
+margin-top: 45vw;
+z-index: 2;
+}
+
+.black_horizontal_rec h1{
+font-size: 3.5vw;}
+
+
+
+
+
+
+
 }
 
 /* Мобильные устройства (до 414px) */
 @media screen and (max-width: 414px) {
+.section_first {}
 .blue_allo {
 width: 100vw;
 height: 40vw;
