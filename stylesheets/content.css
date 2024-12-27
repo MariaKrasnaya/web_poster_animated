@@ -820,7 +820,7 @@ height: 41vw;
 .white_rec_a {
 background-color: white;
 position: absolute;
-width: 18.35vw;
+width: 19vw;
 height: 30vw;
 top: 75vw;
 box-shadow: inset 0.25vw 0.25vw 0.5vw #797979;
@@ -844,7 +844,7 @@ animation: a_letter 2s ease-in-out infinite;
 
 @keyframes a_letter {
 0% {margin-left: 0vw; margin-top: 0vw;}
-33% {margin-left: 10vw; margin-top: 10vw;}
+33% {margin-left: 12vw; margin-top: 10vw;}
 66% {margin-left: 0vw; margin-top: 20vw;}
 100% {margin-left: 0vw; margin-top: 0vw;}
 }
@@ -861,22 +861,40 @@ animation: a_middle 0.5s ease-in-out infinite;
 }
 
 .black_rec_4 {
-background-color: black;
 position: absolute;
-width: 18.35vw;
+width: 18vw;
 height: 30vw;
 top: 75vw;
-margin-left: 17.6vw;
-background-position: 348.65vw 18.35vw;
-background-image: url(../image/4_animation.svg);
-animation: four 3s steps(19) infinite;
-background-repeat: no-repeat;
+margin-left: 18.6vw;
+background-image: url(../image/Frame\ 1.svg);
+background-size: cover;
+animation: four 3s steps(20) infinite;
 }
 
 @keyframes four {
-0% {background-position: 0vw top;}
-100% {background-position: -348.65vw top;}
+0% {background-image: url(../image/Frame\ 1.svg);}
+5.3% {background-image: url(../image/Frame\ 2.svg);}
+10.6% {background-image: url(../image/Frame\ 3.svg);}
+15.9% {background-image: url(../image/Frame\ 3.svg);}
+21.2% {background-image: url(../image/Frame\ 4.svg);}
+26.5% {background-image: url(../image/Frame\ 5.svg);}
+31.8% {background-image: url(../image/Frame\ 6.svg);}
+37.1% {background-image: url(../image/Frame\ 7.svg);}
+42.4% {background-image: url(../image/Frame\ 8.svg);}
+47.7% {background-image: url(../image/Frame\ 9.svg);}
+53% {background-image: url(../image/Frame\ 10.svg);}
+58.3% {background-image: url(../image/Frame\ 11.svg);}
+63.6% {background-image: url(../image/Frame\ 12.svg);}
+68.9% {background-image: url(../image/Frame\ 13.svg);}
+74.2% {background-image: url(../image/Frame\ 14.svg);}
+79.5% {background-image: url(../image/Frame\ 15.svg);}
+84.8% {background-image: url(../image/Frame\ 16.svg);}
+90.1% {background-image: url(../image/Frame\ 17.svg);}
+95.4% {background-image: url(../image/Frame\ 18.svg);}
+100% {background-image: url(../image/Frame\ 19.svg);}
 }
+
+
 
 .blue_rec_wire {
 display: flex;
