@@ -1122,12 +1122,38 @@ animation: code_orange 0.8s linear infinite;
 
 .orange_wires_move {
 position: absolute;
-background-color: #FC6749;
 width: 38vw;
 height: 24vw;
 margin-top: 0vw;
-background-repeat: no-repeat;
-background-image: url(../image/orange_wires_moved.svg);
+background-image: url(../image/wire1.svg);
+background-size: cover;
+animation: move_wire 3s steps(23) infinite;
+}
+
+@keyframes move_wire {
+0% {background-image: url(../image/wire1.svg);}
+4.5% {background-image: url(../image/wire2.svg);}
+9% {background-image: url(../image/wire3.svg);}
+13.5% {background-image: url(../image/wire4.svg);}
+18% {background-image: url(../image/wire5.svg);}
+22.5% {background-image: url(../image/wire6.svg);}
+27% {background-image: url(../image/wire7.svg);}
+31.5% {background-image: url(../image/wire8.svg);}
+36% {background-image: url(../image/wire9.svg);}
+40.5% {background-image: url(../image/wire10.svg);}
+45% {background-image: url(../image/wire11.svg);}
+49.5% {background-image: url(../image/wire12.svg);}
+54% {background-image: url(../image/wire13.svg);}
+58.5% {background-image: url(../image/wire14.svg);}
+63% {background-image: url(../image/wire15.svg);}
+67.5% {background-image: url(../image/wire16.svg);}
+72% {background-image: url(../image/wire17.svg);}
+76.5% {background-image: url(../image/wire18.svg);}
+81% {background-image: url(../image/wire19.svg);}
+85.5% {background-image: url(../image/wire20.svg);}
+90% {background-image: url(../image/wire21.svg);}
+94.5% {background-image: url(../image/wire22.svg);}
+100% {background-image: url(../image/wire23.svg);}
 }
 
 .durer_black_rec {
