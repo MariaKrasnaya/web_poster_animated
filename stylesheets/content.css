@@ -969,7 +969,6 @@ animation: rec2 4s ease-in-out infinite;
 background-color: #FC6749;
 }
   
-
 @keyframes rec2 {
 0% {margin-left: 73vw; z-index: 1; opacity: 1;}
 50% {margin-left: 40vw; z-index: 3; opacity: 1;}
