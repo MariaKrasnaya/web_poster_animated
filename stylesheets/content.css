@@ -20,8 +20,6 @@ font-size: 10vw;
 width: 100%;
 height: 36vw;
 margin-top: 1vw;
-position: relative;
-overflow-x: hidden;
 }
 
 .blue_allo {
@@ -49,7 +47,7 @@ width: 100%;
 width: 100vw;
 height: 10vw;
 position: absolute;
-top: 30vw;
+margin-top: 30vw;
 background-image: url(../image/black\ glitch\ rectangle.svg);
 background-repeat: no-repeat;
 background-size: 100%;
@@ -1102,6 +1100,7 @@ position: absolute;
 width: 52vw;
 margin-top: 34vw;
 margin-left: 2vw;
+animation: code_orange 0.8s linear infinite;
 }
 
 .orange_wires_move {
@@ -1163,14 +1162,21 @@ animation: bubble 2s ease-in-out infinite;
 100% {transform: scaleY(0.5); color: #0202E0;}
 }
 
-.code_elements_orange {
+.code_elements_orange img{
 position: absolute;
-background-image: url(../image/code_elements_orange.svg);
-background-repeat: no-repeat;
 width: 48vw;
 height: 39vw;
 margin-top: 0vw;
 margin-left: 53vw;
+animation: code_orange 0.8s linear infinite;
+}
+
+@keyframes code_orange {
+0% {opacity: 1;}
+33% {opacity: 0;}
+80% {opacity: 1;}
+88% {opacity: 0;}
+100% {opacity: 1;}
 }
 
 .section_five{
