@@ -38,7 +38,7 @@ z-index: 2;
 font-size: 3.5vw;}
 
 .section_second {
-height: 162vw;
+height: 223vw;
 }
 
 .horace {
@@ -311,13 +311,13 @@ margin-left: -18vw;}
 width: 100vw;
 height: 100vw;
 margin-left: 0vw;
-margin-top: 140vw;}
+margin-top: 201vw;}
 
 .statue img {
 width: 134vw;
 height: 116vw;
 margin-left: -20vw;
-margin-top: 129vw;
+margin-top: 190vw;
 z-index: 3;
 }
 
@@ -586,7 +586,7 @@ z-index: 2;
 font-size: 3.5vw;}
     
 .section_second {
-height: 162vw;
+height: 223vw;
 }
     
 .horace {
@@ -1099,7 +1099,7 @@ margin-top: 2.7vw;
 width: 10vw;
 height: 11vw;
 margin-left: 90vw;
-margin-top: -10vw;
+margin-top: -12vw;
 }
     
 @keyframes footer {
